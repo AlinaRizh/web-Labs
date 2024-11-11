@@ -1,0 +1,144 @@
+/*a {
+    display:block;
+    width:100px;
+    background-colour: grey;
+}
+
+td,th {
+    border: 1px solid black;
+}
+
+/*#table2 td, #table2 th {
+    border: 1px solid lightpink;
+}*/
+
+/*.table2Class td, .table2Class th {
+    border: 1px solid lightpink;
+}
+
+
+.logo {
+  float: left;
+}
+
+
+*/
+
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    /*один из способов разместить элементы в строку*/
+}
+
+.container {
+    max-width: 960px;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.col {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.flex-col{
+    flex-direction: row;
+}
+
+.flex-order{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.ul > * {
+    margin-left: 5px;
+}
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+@media (min-width: 768px) {
+    .col {
+        flex: 0 0 auto;
+        width: 49%;
+    }
+    .flex{
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .ul{
+        flex-direction: row;
+        margin-left: auto;
+    }
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
+}
