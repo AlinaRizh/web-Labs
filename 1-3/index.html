@@ -1,1 +1,172 @@
+<!DOCTYPE html>
 
+<head>
+    <title>homework</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex" style="background-color: orange">
+            <div class="col flex flex-col">
+                <a href="/"><img class="logo" src="КУБГУ.jpg"></a>
+                <h3> Кубанский государственный университет </h3>
+            </div>
+            <div class="col flex">
+                    <ul class="ul">
+                        <li><a href="">Ссылка 1</a></li>
+                        <li><a href="">Ссылка 2</a></li>
+                        <li><a href="">Ссылка 3</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <div class="flex-order" style="background-color : orange">
+        <div class="main order-2">
+            <h1>Список ссылок</h1>
+
+            <ul>
+                <li><a href="https://www.kubsu.ru/">Абсолютная ссылка на главную страницу kubsu.ru</a></li>
+                <li><a href="https://www.kubsu.ru/">Абсолютная ссылка на главную страницу kubsu.ru (https)</a></li>
+                <li><a href=https://kubsu.ru/><img src=" https://kubsu.ru/lib/images/Group3288.png " alt=Логотип
+                            КубГУ></a> </li>
+                <li><a href="#about">Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+                <li><a href="#contact">Ссылка на фрагмент текущей страницы</a></li>
+                <li><a href="?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a></li>
+                <li><a href="?id=123">Ссылка с параметром id в URL</a></li>
+                <li><a href="page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
+                <li><a href="../page.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li><a href="../../page.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+                <li>
+                    <p>Посетите <a href="https://www.google.com/">Google</a> для поиска информации.</p>
+                </li>
+                <li><a href="https://www.example.com/#section1">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <li>
+                    <img src="image.jpg" alt="Картинка" usemap="#imageMap">
+                    <map name="imageMap">
+                        <area shape="rect" coords="0,0,100,100" href="https://www.example.com/link1" alt="Ссылка 1">
+                        <area shape="circle" coords="200,200,50" href="https://www.example.com/link2" alt="Ссылка 2">
+                    </map>
+                </li>
+                <li><a href=""></a></li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="#" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+                <li>
+                    <meta name="robots" content="noindex,nofollow">Запрещенная для индексации поисковиками
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="https://www.example.com/" title="Ссылка 1">Ссылка 1</a></li>
+                        <li><a href="https://www.example.com/" title="Ссылка 2">Ссылка 2</a></li>
+                        <li><a href="https://www.example.com/" title="Ссылка 3">Ссылка 3</a></li>
+                    </ol>
+                </li>
+                <li><a href="ftp://user:password@ftp.example.com/file.txt">Ссылка на файл на сервере FTP с
+                        авторизацией</a></li>
+            </ul>
+        </div>
+        <div class="table order-1">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Название колонки 1</th>
+                        <th>Название колонки 2</th>
+                        <th>Название колонки 3</th>
+                        <th>Название колонки 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Значение 1.1</td>
+                        <td>Значение 1.2</td>
+                        <td>Значение 2.1</td>
+                        <td>Значение 3.1</td>
+                        <td>Значение 4.1</td>
+                    </tr>
+                    <tr>
+                        <td>Значение 1.3</td>
+                        <td>Значение 2.2</td>
+                        <td>Значение 3.2</td>
+                        <td>Значение 4.2</td>
+                    </tr>
+                    <tr>
+                        <td>Значение 3.1</td>
+                        <td>Значение 3.2</td>
+                        <td>Значение 4.1</td>
+                        <td>Значение 5.1</td>
+                        <td>Значение 6.1</td>
+                    </tr>
+                    <tr>
+                        <td>Значение 4.1</td>
+                        <td>Значение 4.2</td>
+                        <td>Значение 5.2</td>
+                        <td>Значение 6.2</td>
+                        <td>Значение 7.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Значение 5.1</td>
+                        <td colspan="3">Значение 6.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Значение 7.1</td>
+                        <td colspan="3">Значение 8.1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="form order-3">
+            <h1>Форма</h1>
+
+            <form action="/submit" method="post">
+                <label for="fio">ФИО:</label><br>
+                <input type="text" id="fio" name="fio" required><br><br>
+
+                <label for="phone">Телефон:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,12}" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="birthdate">Дата рождения:</label><br>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+                <label>Пол:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Мужской</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Женский</label><br><br>
+
+                <label for="programmingLanguages">Любимый язык программирования:</label><br>
+                <select id="programmingLanguages" name="programmingLanguages[]" multiple required>
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskel">Haskel</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select><br><br>
+
+                <label for="biography">Биография:</label><br>
+                <textarea id="biography" name="biography" rows="5" cols="40"></textarea><br><br>
+
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement">С контрактом ознакомлен(а)</label><br><br>
+
+                <input type="submit" value="Сохранить">
+            </form>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>(с) Гаевская Алина</p>
+    </footer>
+</body>
