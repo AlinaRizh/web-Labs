@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-	background-image: url("../i.png");
-	background-size: cover;
-}
 #feedback-button {
     background-color: #EA4C89;
     border-radius: 8px;
